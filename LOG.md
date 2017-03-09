@@ -9,3 +9,6 @@ Create a site directory, initialize the git repository and add the LOG.md and RE
 Get a .gitignore file suitable for a python project
 
 	$ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+
+Add some entries to the .gitignore file.
+
