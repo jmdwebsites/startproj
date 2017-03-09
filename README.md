@@ -12,9 +12,13 @@ Get a .gitignore file suitable for a python project
 
 Make any additional entries to .gitignore that may be required.
 
+So to get the modified version of .gitignore
+
+	curl https://raw.githubusercontent.com/jmdwebsites/startproj/master/.gitignore
+
 If the repository is to be published on github push the master copy on github
 
-	$ git remote add origin https://github.com/jmdwebsites/jmdwebsites_source.git
+	$ git remote add origin https://github.com/jmdwebsites/startproj.git
 	$ git push -u origin master
 
 Setup a virtual environment locally in the project. The gitignore file ensures that it will not be checked into the repository.
